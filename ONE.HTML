@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <select name="" id="">
+      <option id="aa" value="one">one</option>
+      <option value="two">two</option>
+      <option value="three">three</option>
+      <option value="four">four</option>
+    </select>
+  </body>
+  <script>
+    let select = document.querySelector("select");
+
+    select.addEventListener("change", function () {
+      if (select.value === "four") {
+        console.log("ahmed");
+      } else if (select.value === "two") {
+        console.log("ahmed32");
+      }
+    });
+  </script>
+</html>
